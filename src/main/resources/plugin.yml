@@ -1,0 +1,15 @@
+name: Minegame2023PL
+version: SNAPSHOT-v.1.0.0_ALPHA
+main: de.mp.minegame2023pl.core.Boot
+api-version: 1.19
+prefix: Minegame2023PL
+load: STARTUP
+authors: [ MiauRizius ]
+description: Does some server specific things
+commands:
+  strikelightning:
+    aliases:
+      - sl
+      - lightningstrike
+    description: Strikes a lightning at your current position
+    usage: /strikelightning
